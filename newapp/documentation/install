@@ -1,0 +1,5 @@
+npm install react-router-dom
+npm install axios
+npm install papaparse
+npm install --save-dev @types/papaparse
+npm install zustand

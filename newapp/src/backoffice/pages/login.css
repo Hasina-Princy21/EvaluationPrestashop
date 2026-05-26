@@ -1,0 +1,76 @@
+.backoffice-login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f3f4f6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.backoffice-login-card {
+    background: #ffffff;
+    padding: 2.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.backoffice-login-card h1 {
+    margin-top: 0;
+    margin-bottom: 2rem;
+    color: #1f2937;
+    font-size: 1.75rem;
+    text-align: center;
+}
+
+.backoffice-login-form .form-group {
+    margin-bottom: 1.25rem;
+}
+
+.backoffice-login-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #4b5563;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.backoffice-login-form input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #d1d5db;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #374151;
+    box-sizing: border-box;
+    transition: border-color 0.2s;
+}
+
+.backoffice-login-form input:focus {
+    outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.login-button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #3b82f6;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-top: 1rem;
+}
+
+.login-button:hover {
+    background-color: #2563eb;
+}
+
+.login-button:active {
+    background-color: #1d4ed8;
+}
